@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>GameBlog - O seu blog de jogos</title>
+    <link rel="stylesheet" type="text/css" href="estilo novo.css">
+</head>
+
+<body>
+    <header id="area-cabecalho">
+
+        <div id="area-logo">
+			<img src="logo.png" alt="Logo do GameBlog">
+			<h1>Game<span class="branco">Blog</span></h1>
+		</div>
+        <div id="area-menu">
+            <a href="index.html">Início</a>
+            <a href="criarconta.html">Criar Conta</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="login.html">Login</a>
+        </div>
+
+    </header>
+
+    <section id="sobre">
+        <h2>Somos o GameBlog</h2>
+        <p>O Gameblog é um site brasileiro dedicado ao universo dos jogos eletrônicos, oferecendo uma ampla gama de conteúdo relacionado a videogames.</p>
+        <h2>Nosso objetivo:</h2>
+        <ul>
+            <li>Informar</li>
+            <li>Explicar</li>
+            <li>Opinar</li>
+            <li>Entreter</li>
+        </ul>
+        <h2>Conheça nossos conteúdos:</h2>
+        <div id="dvtabela" class="larguramax">
+            <input type="text" id="txtbusca" placeholder="Buscar..." class="larguramax"/>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome do jogo</th>
+                        <th>Gênero</th>
+                        <th>Plataforma</th>
+                        <th>Ano de lançamento</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </div>
+
+    <footer id="rodapé">
+        Todos os direitos reservados
+    </footer>
+    <!-- Botão com logo -->
+    <button id="scrollToTopButton" onclick="scrollToTop()">
+        <img src="levelup.png" alt="Logo">
+    </button>
+
+    <script>
+        const scrollToTop = () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+    <script src="tabela.js"></script>
+</body>
+
+</html>
