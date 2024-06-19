@@ -1,0 +1,524 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #ccc;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #222;
+    padding: 15px 0;
+    text-align: center;
+}
+#area-logo {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    height: 100px; /* Altura da área do logo (ajuste conforme necessário) */
+    background-color: #333; /* Cor de fundo para visualização */
+}
+
+#area-logo img {
+    width: 50px; /* Defina o tamanho da imagem conforme necessário */
+    height: auto; /* Para manter a proporção */
+}
+
+#area-logo h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #fff;
+    display: flex; /* Para ajustar o alinhamento do texto */
+    align-items: center; /* Alinha verticalmente */
+}
+
+#area-logo .branco {
+    margin-left: 5px; /* Espaçamento entre o texto e a imagem */
+}
+
+
+
+
+#area-menu {
+    margin-top: 10px;
+}
+
+#area-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1200px;
+    width: 95%;
+}
+
+#area-postagens {
+    flex: 2;
+}
+
+.postagem {
+    background-color: #222;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.postagem h2 {
+    color: #f7b600;
+}
+
+.postagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.postagem p {
+    color: #ccc;
+}
+
+.postagem a {
+    color: #f7b600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.postagem a:hover {
+    text-decoration: underline;
+}
+
+#area-lateral {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.conteudo-lateral {
+    background-color: #222;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral h3 {
+    color: #f7b600;
+    margin-bottom: 10px;
+}
+
+.postagem-lateral {
+    margin-bottom: 10px;
+}
+
+.postagem-lateral a {
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.postagem-lateral a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #ccc;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+header {
+    background-color: #222;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+}
+
+#area-logo h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #fff;
+}
+
+#area-menu {
+    margin-top: 10px;
+}
+
+#area-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo principal horizontalmente */
+    margin: 20px auto;
+    max-width: 1200px;
+    width: 95%;
+}
+
+section {
+    flex: 1;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+section h2 {
+    color: #f7b600;
+    margin-top: 20px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+#dvtabela {
+    margin-top: 20px;
+}
+
+#dvtabela .larguramax {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto; /* Centraliza a div da tabela */
+}
+
+#dvtabela input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+thead {
+    background-color: #222;
+    color: #f7b600;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tfoot {
+    background-color: #222;
+    color: #f7b600;
+}
+
+tfoot td {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+#scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#scrollToTopButton img {
+    width: 80%;
+    height: 80%;
+}
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #ccc;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+header {
+    background-color: #222;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+}
+
+#area-logo h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #fff;
+}
+
+#area-menu {
+    margin-top: 10px;
+}
+
+#area-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+article {
+    max-width: 800px;
+    width: 100%;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+article h2 {
+    color: #f7b600;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form p {
+    margin-bottom: 10px;
+}
+
+form label {
+    color: #fff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form .radio,
+form .checkbox {
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #ccc;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+header {
+    background-color: #222;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+}
+
+#area-logo h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #fff;
+}
+
+#area-menu {
+    margin-top: 10px;
+}
+
+#area-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+#area-login {
+    max-width: 400px;
+    width: 100%;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#area-login h2 {
+    color: #f7b600;
+    margin-bottom: 20px;
+}
+
+#area-login form {
+    margin-bottom: 20px;
+}
+
+#area-login label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: left;
+}
+
+#area-login input[type="text"],
+#area-login input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#area-login input[type="submit"] {
+    background-color: #f7b600;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #f7b600;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#mensagem-boas-vindas {
+    position: fixed;
+    top: 10px; /* Distância do topo */
+    right: 10px; /* Distância da direita */
+    padding: 10px;
+    display: none; /* Inicialmente escondido */
+    z-index: 1000; /* Garante que esteja acima de outros elementos */
+}
+
+#mensagem-boas-vindas p {
+    font-size: 16px;
+    color: #f7b600; /* Cor do texto */
+    font-weight: bold;
+}
