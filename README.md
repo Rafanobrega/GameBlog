@@ -1,4 +1,4 @@
-#GameBlog
+
 O GameBlog é um projeto de site voltado para entusiastas de jogos, onde é possível ler artigos, análises e notícias sobre o mundo dos games. Este repositório contém o código fonte do site, desenvolvido utilizando HTML, CSS, JavaScript e PHP.
 
 Funcionalidades:
